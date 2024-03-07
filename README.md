@@ -4,7 +4,7 @@
 
 1. Docker to build the container
 
-2. Git to trach changes
+2. Git to track changes
 
 3. GitHub to manage the Dockerfile and application code in Git repositories
 
