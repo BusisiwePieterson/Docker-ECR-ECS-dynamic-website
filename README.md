@@ -143,3 +143,26 @@ On the drop-down select your VPC `Dev VPC`
 
 Now that we have a Route Table, the next thing to do is to add a public route to our Route Table. The Public Route will allow the Route Table to route traffic to the Internet
 
+Make sure that you are on the Route Tab and click on `Edit routes`
+
+![images](images/Screenshot_24.png)
+
+![images](images/Screenshot_25.png)
+
+The next thing we are going to do is to associate the two subnets that we created with the public route table.
+
+![images](images/Screenshot_26.png)
+
+![images](images/Screenshot_27.png)
+
+To finish we need to create our 4 Private Subnets.
+
+![images](images/Screenshot_28.png)
+
+![images](images/Screenshot_29.png)
+
+![images](images/Screenshot_30.png)
+
+![images](images/Screenshot_31.png)
+
+
