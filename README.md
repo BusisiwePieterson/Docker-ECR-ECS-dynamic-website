@@ -199,14 +199,36 @@ Next we create the econd Nat Gateway in the Public Subnet AZ2
 
 Next create the last Private Route Table, following the previous steps.
 
-
-
-
 ## Step 3: Setting up Security Groups in AWS
 
+1. ALB Security Group - Port 80 and 443 Source = 0.0.0.0
 
+![images](images/Screenshot_44.png)
+
+
+2. Bastion Host Security Group: Port 22 Source = Your IP Address
+
+![images](images/Screenshot_43.png)
+
+3. Container SG: Port 80 and 443 Source = ALB Security Group
+
+![images](images/Screenshot_41.png)
+
+![images](images/Screenshot_42.png)
+
+4. Database SG: Port 3306 Source = Container SG
+
+   Port 3306 Source = Bastion Host SG
+
+![images](images/Screenshot_44.png)
+
+![images](images/Screenshot_45.png)
+
+![images](images/Screenshot_46.png)
 
 ## Step 4: Setting up my MySQL RDS Instance in AWS
+
+
 
 
 ## Step 5: Registering a New Domain Name in Route 53
