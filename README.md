@@ -121,9 +121,25 @@ Remember we need 2 subents, one in `us-east-1a` and another in `us-east-1b` Now 
 
 ![images](images/Screenshot_17.png)
 
-Now that we have that we have to enable the auto-assign for the 2 public subnets, this means that everytime you launch an ec2 instance in your subnets, those ec2 instances will be assigned a public ip address.
+Now that we have that we have to enable the auto-assign for the 2 public subnets, this means that everytime you launch an ec2 instance in your subnets, those ec2 instances will be assigned a public ip address. Do this for both subnets.
 
 ![images](images/Screenshot_18.png)
 
 ![images](images/Screenshot_19.png)
+
+Next thing we do is create a Route Table
+
+![images](images/Screenshot_20.png)
+
+You will find a default Route Table, this route table is a default route table created when you create a VPC. This is the Main route tabe and is private by default.
+
+![images](images/Screenshot_21.png)
+
+On the drop-down select your VPC `Dev VPC`
+
+![images](images/Screenshot_22.png)
+
+![images](images/Screenshot_23.png)
+
+Now that we have a Route Table, the next thing to do is to add a public route to our Route Table. The Public Route will allow the Route Table to route traffic to the Internet
 
