@@ -54,18 +54,76 @@ In addition to dividing the network into 3 separate layers we also want to imple
 
 Here are the components of the above architecture.
 
-1. VPC with public and private subnets in 2 availability zones.
+1. **VPC** with public and private subnets in 2 availability zones.
 
-2. An Internet Gateway to allow communication between instances in VPS and the Internet.
 
-3. We are using 2 Availability Zones for high availability and fault tolerance.
 
-4. Resources such as Nat Gateway, Bastion Host and Application Load Balancer use Public Subnets.
+2. An **Internet Gateway** to allow communication between instances in VPS and the Internet.
+
+3. We are using 2 **Availability Zones** for high availability and fault tolerance.
+
+4. Resources such as **Nat Gateway, Bastion Host and Application Load Balancer** use Public Subnets.
 
 5. We will put the webservers and database servers in the Private Subnets to protect them.
 
-6. The Public Route Table is assocated with the public subnets and routes traffic to the internet through the internet gateway.
+6. The **Public Route Table** is assocated with the public subnets and routes traffic to the internet through the internet gateway.
 
-7. The Main Route Table is associated with the private subnets.
+7. The **Main Route Table** is associated with the private subnets.
 
+
+### Step 1: Create a VPC
+
+![images](images/Screenshot_3.png)
+
+Enable DNS Hostname on the VPC
+
+![images](images/Screenshot_4.png)
+
+![images](images/Screenshot_5.png)
+
+Create Internet Gateway
+
+![images](images/Screenshot_6.png)
+
+![images](images/Screenshot_7.png)
+
+Attach the Internet gateway to the VPC that you created to allow the VPC to communicate with the internet.
+
+![images](images/Screenshot_8.png)
+
+![images](images/Screenshot_9.png)
+
+![images](images/Screenshot_10.png)
+
+![images](images/Screenshot_11.png)
+
+Create Public subnets
+
+![images](images/Screenshot_12.png)
+
+Filter by your VPC `Dev VPC` you should see that there are no subnets in this newly created VPC
+
+![images](images/Screenshot_13.png)
+
+Give the subnet a name according to the reference architecture `public subnet az 1`
+
+According to the architecture, the subnet should be in `us-east-1a` so under Availability Zone select that.
+
+Enter the CIDR block that is given in the architecture `10.0.0.0/24`
+
+![images](images/Screenshot_14.png)
+
+![images](images/Screenshot_15.png)
+
+Remember we need 2 subents, one in `us-east-1a` and another in `us-east-1b` Now create the second subnet.
+
+![images](images/Screenshot_16.png)
+
+![images](images/Screenshot_17.png)
+
+Now that we have that we have to enable the auto-assign for the 2 public subnets, this means that everytime you launch an ec2 instance in your subnets, those ec2 instances will be assigned a public ip address.
+
+![images](images/Screenshot_18.png)
+
+![images](images/Screenshot_19.png)
 
