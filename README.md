@@ -165,4 +165,52 @@ To finish we need to create our 4 Private Subnets.
 
 ![images](images/Screenshot_31.png)
 
+### Step 2: Nat Gateways to allow resources in the private subnets access to the internet.
+
+![images](images/Screenshot_32.png)
+
+1. The Nat Gateway allows the instances in the private App subnets and private Data subnets to access the internet.
+
+2. The Private Route Table is associated with the private subnets and routes traffic to the internet through the nat gateway.
+
+![images](images/Screenshot_33.png)
+
+![images](images/Screenshot_34.png)
+
+
+Create a Private Route Table (Private Route Table AZ1)
+
+![images](images/Screenshot_35.png)
+
+![images](images/Screenshot_36.png)
+
+Next add a route to the public subnet AZ1 to route traffic to the internet through the Nat Gateway in the public subnet AZ1
+
+
+![images](images/Screenshot_37.png)
+
+Next associate the route tables with our subnets
+
+![images](images/Screenshot_38.png)
+
+Next we create the econd Nat Gateway in the Public Subnet AZ2
+
+![images](images/Screenshot_39.png)
+
+Next create the last Private Route Table, following the previous steps.
+
+
+
+
+## Step 3: Setting up Security Groups in AWS
+
+
+
+## Step 4: Setting up my MySQL RDS Instance in AWS
+
+
+## Step 5: Registering a New Domain Name in Route 53
+
+
+## Step 6: 
 
