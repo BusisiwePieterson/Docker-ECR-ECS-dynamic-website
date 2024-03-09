@@ -275,9 +275,31 @@ Next, create the RDS Instance
 ## Step 6: 
 
 Create a GitHub REPO
-Clone the repo locally and download zipfile to project
+Clone the repo locally and download zipfile for the website code
 
 ![images](images/Screenshot_65.png)
+
+![images](images/Screenshot_66.png)
+
+![images](images/Screenshot_67.png)
+
+### Create a Personal Access Token for Docker to use when cloning the repository when building the Docker image
+
+![images](images/Screenshot_68.png)
+
+![images](images/Screenshot_69.png)
+
+![images](images/Screenshot_70.png)
+
+![images](images/Screenshot_71.png)
+
+![images](images/Screenshot_72.png)
+
+![images](images/Screenshot_73.png)
+
+## Create a Dockerfile for a Dynamic Web App
+
+
 
 
 
