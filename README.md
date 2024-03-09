@@ -266,6 +266,19 @@ Next, create the RDS Instance
 
 ## Step 5: Registering a New Domain Name in Route 53
 
+![images](images/Screenshot_62.png)
+
+![images](images/Screenshot_63.png)
+
+![images](images/Screenshot_64.png)
 
 ## Step 6: 
+
+Create a GitHub REPO
+Clone the repo locally and download zipfile to project
+
+![images](images/Screenshot_65.png)
+
+
+
 
