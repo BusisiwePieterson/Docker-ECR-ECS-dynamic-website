@@ -228,6 +228,39 @@ Next create the last Private Route Table, following the previous steps.
 
 ## Step 4: Setting up my MySQL RDS Instance in AWS
 
+On the Management console search for RDS, before creating the Database, we need to create a subnet group which will specify the subnets in which our database will be in.
+
+![images](images/Screenshot_47.png)
+
+![images](images/Screenshot_48.png)
+
+![images](images/Screenshot_49.png)
+
+Next, create the RDS Instance
+
+![images](images/Screenshot_50.png)
+
+![images](images/Screenshot_51.png)
+
+![images](images/Screenshot_52.png)
+
+![images](images/Screenshot_53.png)
+
+![images](images/Screenshot_54.png)
+
+![images](images/Screenshot_55.png)
+
+![images](images/Screenshot_56.png)
+
+![images](images/Screenshot_57.png)
+
+![images](images/Screenshot_58.png)
+
+![images](images/Screenshot_59.png)
+
+![images](images/Screenshot_60.png)
+
+![images](images/Screenshot_61.png)
 
 
 
