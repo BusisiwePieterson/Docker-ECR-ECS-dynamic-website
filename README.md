@@ -301,5 +301,11 @@ Clone the repo locally and download zipfile for the website code
 
 ![images](images/Screenshot_74.png)
 
+We will add build arguments and environment variables to pass secrets to our Dockerfile
+
+The Build Argument, allows us to build our image locally so that we can push it to Amazon ECR
+
+Environment Variabes, 
+
 
 
