@@ -299,8 +299,7 @@ Clone the repo locally and download zipfile for the website code
 
 ## Create a Dockerfile for a Dynamic Web App
 
-
-
+![images](images/Screenshot_74.png)
 
 
 
