@@ -307,5 +307,23 @@ The Build Argument, allows us to build our image locally so that we can push it 
 
 Environment Variabes, 
 
+![images](images/Screenshot_75.png)
+
+![images](images/Screenshot_76.png)
+
+![images](images/Screenshot_77.png)
+
+![images](images/Screenshot_78.png)
+
+MAKE THE SHELL SCRIPT EXECUTABLE
+
+OPEN POWERSHELL AS AN ADMINSTRATOR, THEN PASTE THE `Set-ExecutionPolicy -ExecutionPolicy `
+
+![images](images/Screenshot_79.png)
+
+Now that our file executable, we will run the shell script file for our Docker image.
+
+
+
 
 
