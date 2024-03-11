@@ -74,6 +74,11 @@ ENV RDS_DB_NAME=$RDS_DB_NAME
 ENV RDS_MASTER_USERNAME=$RDS_MASTER_USERNAME
 ENV RDS_DB_PASSWORD=$RDS_DB_PASSWORD
 
+
+# Configure Git to use SSH
+RUN git config --global url."git@github.com:".insteadOf "https://github.com/"
+
+
 # Clone the GitHub repository
 RUN git clone https://$PERSONAL_ACCESS_TOKEN@github.com/$GITHUB_USERNAME/$REPOSITORY_NAME.git
 

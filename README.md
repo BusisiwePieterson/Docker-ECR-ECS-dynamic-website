@@ -272,6 +272,13 @@ Next, create the RDS Instance
 
 ![images](images/Screenshot_64.png)
 
+
+CREATE KEY PAIRS
+
+![images](images/Screenshot_81.png)
+
+![images](images/Screenshot_82.png)
+
 ## Step 6: 
 
 Create a GitHub REPO
@@ -322,6 +329,18 @@ OPEN POWERSHELL AS AN ADMINSTRATOR, THEN PASTE THE `Set-ExecutionPolicy -Executi
 ![images](images/Screenshot_79.png)
 
 Now that our file executable, we will run the shell script file for our Docker image.
+
+![images](images/Screenshot_84.png)
+
+Run Docker images ls to see the image that we just created.
+
+![images](images/Screenshot_85.png)
+
+Next install Amazon Command Line, Create an IAM User with Programmatic access and run AWS Configure.
+
+
+
+
 
 
 
