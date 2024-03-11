@@ -368,6 +368,14 @@ Now lets push the image to ECR. First opn your console to get your account ID
 
 ![images](images/Screenshot_95.png)
 
+## SETTING UP A BASTION HOST
+
+We will use the Bastion Host to SSH into our RDS instance in the private subnet so that we can migrate our data into the RDS database.
+
+![images](images/Screenshot_96.png)
+
+![images](images/Screenshot_97.png)
+
 
 
 
