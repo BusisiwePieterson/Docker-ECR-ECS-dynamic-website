@@ -338,6 +338,42 @@ Run Docker images ls to see the image that we just created.
 
 Next install Amazon Command Line, Create an IAM User with Programmatic access and run AWS Configure.
 
+![images](images/Screenshot_86.png)
+
+NOW THAT THE AWS CLI IS CONFIGURED, WE WILL USE THE CLI TO CREATE TO PUSH OUR IMAGE THAT WE CREATED TO AMAZON ECR
+
+Run this command to create ecr
+
+`aws ecr create-repository --repository-name rentzone --region us-east-1`
+
+![images](images/Screenshot_87.png)
+
+![images](images/Screenshot_88.png)
+
+![images](images/Screenshot_89.png)
+
+![images](images/Screenshot_90.png)
+
+NOW LETS PUSH THE IMAGE THAT WE CREATED TO OUR ECR REPOSTIORY.
+
+![images](images/Screenshot_91.png)
+
+Now lets push the image to ECR. First opn your console to get your account ID
+
+![images](images/Screenshot_92.png)
+
+![images](images/Screenshot_93.png)
+
+![images](images/Screenshot_94.png)
+
+![images](images/Screenshot_95.png)
+
+
+
+
+
+
+
 
 
 
