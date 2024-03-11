@@ -376,6 +376,14 @@ We will use the Bastion Host to SSH into our RDS instance in the private subnet 
 
 ![images](images/Screenshot_97.png)
 
+#### Downloading and Installing Flyway on Your Computer
+
+Go to: https://www.red-gate.com/products/flyway/community/download/
+
+Choose your operating system, 
+
+
+
 
 
 
