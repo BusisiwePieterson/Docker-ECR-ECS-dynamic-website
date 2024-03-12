@@ -389,6 +389,36 @@ CreateS3 BUCKET AND UPLOAD SCRIPT INTO IT
 ![images](images/Screenshot_100.png)
 
 
+CREATE APPLICATION LOADBALANCER USED TO ROUTE TRAFFIC TO THE ECS FARGATE
+
+First create a Trget Group
+
+search bar > EC2 > Target Group > Create Target Group
+
+![images](images/Screenshot_101.png)
+
+Now create a Loadbalancer
+
+![images](images/Screenshot_102.png)
+
+an application load balancer always has to have a reach to the Public Subnets and not the Private Subnets
+
+![images](images/Screenshot_103.png)
+
+![images](images/Screenshot_104.png)
+
+![images](images/Screenshot_105.png)
+
+![images](images/Screenshot_106.png)
+
+![images](images/Screenshot_107.png)
+
+
+#### Registering for an SSL Certificate in Amazon Certificate Manager
+
+We will use the SSL Certificate to encrypt the intransit information between our web browsers and web servers.
+
+
 
 
 
