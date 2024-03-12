@@ -382,6 +382,12 @@ Go to: https://www.red-gate.com/products/flyway/community/download/
 
 Choose your operating system, 
 
+![images](images/Screenshot_99.png)
+
+CreateS3 BUCKET AND UPLOAD SCRIPT INTO IT
+
+![images](images/Screenshot_100.png)
+
 
 
 
